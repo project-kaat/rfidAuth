@@ -1,0 +1,14 @@
+[Unit]
+Description=Automatic user selection for GDM with xdotool. project rfidAuth
+Requires=gdm.service
+Requires=network-online.target
+After=gdm.service
+After=network-online.target
+
+[Service]
+ExecStart=/home/remi/.local/bin/keypress.sh
+Type=oneshot
+
+[Install]
+WantedBy=graphical.target
+
