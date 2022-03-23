@@ -7,7 +7,9 @@ This repository contains material for this [blog article](https://project-kaat.g
 ## Structure
 
 **hwCode** - Arduino IDE project. This is the device code
+
 **gdm** - GDM automatic user selection workaround
+
 **this directory** - Custom PAM module code
 
 
