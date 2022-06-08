@@ -5,4 +5,4 @@ clean:
 	rm pam_rfbs.o
 	rm pam_rfbs.so
 install:
-	cp pam_rfbs.o /lib/security/
+	cp pam_rfbs.so /lib/security/
